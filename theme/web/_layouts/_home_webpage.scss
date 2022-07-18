@@ -1,0 +1,47 @@
+/** 
+
+IMDashboard HomePage
+
+Related pages:
+
+    1. IncidentMmgtPhoneWeb.Dashboard_PhoneWeb
+    2. IncidentMgmtWeb.Dashboard
+
+
+**/
+
+
+/*
+Responsive Portrait Orientation
+*/
+
+@media (max-width: 897px) {
+  
+
+}
+
+/*
+Responsive Landscape Orientation
+*/
+
+@media screen and (orientation:landscape) and (max-width: 897px) {
+  
+}
+
+
+/*
+Desktop Web 
+*/
+
+//icons for the right
+.right-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+//form contents here
+.jumbotron{
+    background: none;
+}
+

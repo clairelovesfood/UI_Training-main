@@ -1,0 +1,82 @@
+/** 
+
+**Filename On Mendix**
+
+Related pages:
+
+    1. **MobileServiceLayer.Filename**
+    2. **WebServiceLayer.Filename**
+
+
+**/
+
+
+/*
+Responsive Portrait Orientation
+*/
+
+@media (max-width: 897px) {
+
+}
+
+/*
+Responsive Landscape Orientation
+*/
+
+@media screen and (orientation:landscape)
+and (max-width: 897px)  { 
+
+}
+
+
+/*
+Desktop Web 
+*/
+.sidebar-right{
+    min-width: 70px;
+    max-width: 70px;
+
+
+    position: relative;
+    float: right;
+    background-color: #3F475A;
+    border-radius: 0.5rem;
+    margin: 100px 0px;
+    padding: 20px 20px;
+    justify-content : right;
+    display: block;
+  
+}
+
+.teams_box{
+    padding-top: 1.5rem;
+    align-items: center;
+    display: block;
+        
+.teams_page{
+    color: #AAF455;
+    font-size: 3rem;
+}
+    
+}
+
+.phone_box{
+    padding-top: 4.5rem;
+    align-items: center;
+    display: block;
+
+    .phone_page{
+        font-size: 3rem; 
+    }
+}
+
+.note_box {
+    padding-top: 4.5rem;
+    align-items: center;
+    display: block;
+}
+    .note_page {
+        font-size: 3rem;
+    }
+
+

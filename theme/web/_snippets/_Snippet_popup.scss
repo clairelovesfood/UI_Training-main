@@ -1,0 +1,126 @@
+/** 
+
+**Filename On Mendix**
+
+Related pages:
+
+    1. **MobileServiceLayer.Filename**
+    2. **WebServiceLayer.Filename**
+
+
+**/
+
+
+/*
+Responsive Portrait Orientation
+*/
+
+@media (max-width: 897px) {
+
+}
+
+/*
+Responsive Landscape Orientation
+*/
+
+@media screen and (orientation:landscape)
+and (max-width: 897px)  { 
+
+}
+
+
+/*
+Desktop Web 
+*/
+.popup-container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.left-container{
+    flex-direction: row;
+    display: flex;
+    padding-right: 3rem;
+    min-width: 40px;
+    min-height: 40px;
+    bottom: 50px;
+    padding-left: 8rem;
+}
+
+.healthcard {
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 1rem;
+    background-color: #fff;
+    padding-left: 1rem;
+}
+.allopen{
+    border: 2px solid white;
+    outline: #5856D6 solid 7px;
+    margin: 2rem;
+}
+
+.firstalert{
+    border: 2px solid white;
+    outline: #BD10E0 solid 2px;
+    margin: 2rem;
+}
+
+.incident{
+    border: 2px solid white;
+    outline: #00B7FF solid 2px;
+    margin: 2rem;
+}
+
+.resolved{
+    border: 2px solid white;
+    outline: #219653 solid 2px;
+    margin: 2rem;
+}
+
+
+.right-container {
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+
+.report{
+    background: #0066CC;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 7px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+} 
+
+.imSwitchcol{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.imRefreshCol{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    margin: 0 0 1rem 1rem;
+
+    border: 1px solid #0066CC;
+    background: #E0EDF9;
+    font-size: 9px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #4A4A4A;
+
+
+}

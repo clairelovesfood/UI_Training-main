@@ -1,0 +1,163 @@
+/** 
+
+**Filename On Mendix**
+
+Related pages:
+
+    1. **MobileServiceLayer.Filename**
+    2. **WebServiceLayer.Filename**
+
+
+**/
+
+
+/*
+Responsive Portrait Orientation
+*/
+
+@media (max-width: 897px) {
+//     .Snippet_Footer_Body{
+//         position: absolute;
+//         width: 100%;
+//         height: 100px;
+//         left: 0%;
+//         right: 0%;
+//         top: 0%;
+//         bottom: 0%;
+//         background: #3F475A;
+    
+//         .brandicon_footer{
+//         position: absolute;
+//         left: 6.22%;
+//         right: 91.96%;
+//         top: 20%;
+//         bottom: 45.71%;
+//         background: #FFFFFF;
+//         }
+    
+//         .brandicon_footer1{
+//         position: absolute;
+//         left: 20.89%;
+//         right: 77.86%;
+//         top: 22.14%;
+//         bottom: 46.73%;
+        
+//         background: #FFFFFF;
+        
+//         }
+//         .brandicon_footer2{
+//         position: absolute;
+//         left: 34.55%;
+//         right: 63.82%;
+//         top: 21.43%;
+//         bottom: 46.85%;
+//         background: #FFFFFF;
+//         }
+//         .brandicon_footer3{
+//         position: absolute;
+//         left: 48.83%;
+//         right: 49.12%;
+//         top: 18.57%;
+//         bottom: 40%;
+        
+//         background: #FFFFFF;
+//         }
+//         .brandicon_footer4{
+//         position: absolute;
+//         left: 63.25%;
+//         right: 35.1%;
+//         top: 21.43%;
+//         bottom: 46.59%;
+        
+//         background: #FFFFFF;    
+//     }
+//         .brandicon_footer5{
+//         position: absolute;
+//         left: 77.53%;
+//         right: 20.42%;
+//         top: 18.57%;
+//         bottom: 40%;
+//         background: #FFFFFF;
+//         }
+    
+//         .brandicon_footer6{
+//         position: absolute;
+//         left: 92%;
+//         right: 6.37%;
+//         top: 22.34%;
+//         bottom: 45.67%;
+        
+//         background: #AAF455;     
+//     }
+// }
+}
+
+/*
+Responsive Landscape Orientation
+*/
+
+@media screen and (orientation:landscape)
+and (max-width: 897px)  { 
+
+}
+
+
+/*
+Desktop Web 
+*/
+.footer_body{
+    // position: absolute;
+    width: 100vw;
+    height: 100px;
+    bottom: 0%;
+    background: #3F475A;
+    overflow: hidden;
+    position: fixed;
+    margin: 0 auto;
+
+    .footer_container{
+        display:flex;
+        flex-direction: row;
+        height:100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .brandicon_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_name{
+        height:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        &:hover{
+            color: #AAF455;
+        }
+    }
+    .fname{
+        text-align: center;
+        font-size: 2rem;        
+    }
+           
+    .homepage_twitter{
+        font-size: 15rem;
+    }
+    
+    .im_homepage{
+        font-size: 5rem;
+        padding: 1rem;
+    }
+
+
+    .fa-rotate-45{
+    -ms-transform:rotate(45deg);     /* Internet Explorer 9 */
+    -webkit-transform:rotate(45deg); /* Chrome, Safari, Opera */
+    transform:rotate(45deg);
+}
+}

@@ -1,0 +1,243 @@
+/** 
+
+**Filename On Mendix**
+
+Related pages:
+
+    1. **MobileServiceLayer.Filename**
+    2. **WebServiceLayer.Filename**
+
+
+**/
+
+
+/*
+Responsive Portrait Orientation
+*/
+
+@media (max-width: 897px) {
+
+    // .Snippet_Header_Body{
+    //     margin-right: -15px;
+    //     margin-left: -15px;
+    //     display: flex;
+    //     position: absolute;
+    //     width: 1440px;
+    //     height: 100px;
+    //     left: 0px;
+    //     top: 0px;
+
+    //     background: #14234B;
+    //     mix-blend-mode: normal;
+
+    //     .header_left{
+    //         .brandicon_header
+    //         {
+    //         position: absolute;
+    //         background-image: "./ui/image/imlogo.png";
+    //         left: 5.69%;
+    //         right: 92.64%;
+    //         top: 2.64%;
+    //         bottom: 94.08%;
+    //         background: #FFFFFF;
+    //         }
+
+    //         .brandname_header{
+    //             position: absolute;
+    //             width: 193px;
+    //             height: 15px;
+    //             left: 118px;
+    //             top: 30.7px;
+
+    //             font-family: 'Aldrich';
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 15px;
+    //             line-height: 15px;
+    //             /* identical to box height */
+
+    //             /* White */
+    //             color: #FFFFFF;
+    //         }    
+    //     }
+
+    //     .header_right{
+          
+    //         .qr_header{
+    //             background-image: "./ui/image/qrcode.png";    
+    //             position: absolute;
+    //             left: 83.33%;
+    //             right: 14.17%;
+    //             top: 2.88%;
+    //             bottom: 92.62%;
+    //             /* White */
+    //             background: #FFFFFF;
+    //         }
+    //         .filter_header{
+    //         position: absolute;
+    //         left: 25.86%;
+    //         right: 27.59%;
+    //         top: 11.11%;
+    //         bottom: 75.56%;
+
+    //         background: #FFFFFF;
+    //         }
+    //         .user_header{
+    //         position: absolute;
+    //         left: 20%;
+    //         right: 20%;
+    //         top: 27.5%;
+    //         bottom: 27.5%;
+
+    //         font-family: 'Proxima Nova';
+    //         font-style: normal;
+    //         font-weight: 400;
+    //         font-size: 18px;
+    //         line-height: 18px;
+    //         /* identical to box height */
+    //         color: #FFFFFF;
+    //         opacity: 0.6;
+    //         }
+    //     }
+    // }
+
+
+}
+
+/*
+Responsive Landscape Orientation
+*/
+
+@media screen and (orientation:landscape)
+and (max-width: 897px)  { 
+
+}
+
+
+/*
+Desktop Web 
+*/
+// .Snippet_Header_Body{
+//     position: absolute;
+//     width: 100vw;
+//     height: 100px;
+    
+//     // z-index: 1;
+//     background: #14234B;
+//     mix-blend-mode: normal;
+
+//     .Snippetheader_wrapper{
+//         display:flex;
+//         flex-direction: row;
+//         height:100%;
+//         width: 100%;
+//         align-items: center;
+//         justify-content: space-between;
+//     }
+
+//     .container_left{
+//         padding-left: 2em;
+//         height: 100%;
+//         flex-direction: row;
+//         display: flex;
+//         align-items: center;
+//         justify-content: left;
+//     }
+
+//     .container_right{
+//         padding-right: 1em;
+//         height: 100%;
+//         flex-direction: row;
+//         display: flex;
+//         align-items: center;
+//         justify-content: right;
+
+        
+//         .LeftItemMenu{
+//             padding-right: 2em;
+//         }
+//     }
+
+//     .fname{
+//         color:#FFFFFF;
+//         font-size: 12px;
+//         line-height: 15px;
+//         letter-spacing: 0em;
+//         text-align: left;
+        
+//     }
+
+//     .user_header{
+//         min-width: 40px;
+//         min-height: 40px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         background-color: #0066CC;
+//         color: #FFFFFF;
+//         font-size: 18px;
+//         border-radius: 100%;
+
+//     }
+// }
+
+.homepage_navbar{
+    background-color: #14234B;
+    color: #FFFFFF;
+    padding: 1.2rem;
+}
+
+.brand_imlogo{
+    width: 229px;
+    height: 28px;
+}
+//icons for the right
+.right-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.user_navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 100%;
+    min-width: 40px;
+    min-height: 40px;
+    padding-right: 3rem;
+}
+.qr_navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 3rem;
+}
+.ibx_navbar{
+    align-items: center;
+    padding-right: 3rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user_color {
+    background-color: #0066CC;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 14rem;
+    justify-content: center;
+    display: flex;
+}
+.fheadname{
+    color:#FFFFFF;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}

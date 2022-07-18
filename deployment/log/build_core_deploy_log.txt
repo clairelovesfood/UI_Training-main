@@ -1,0 +1,10 @@
+Buildfile: C:\Users\csea\Documents\Mendix\UI_Training-main\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 51 files to C:\Users\csea\Documents\Mendix\UI_Training-main\deployment
+     [copy] Copying 40 files to C:\Users\csea\Documents\Mendix\UI_Training-main\deployment\model\lib\userlib
+     [copy] Copying 8 files to C:\Users\csea\Documents\Mendix\UI_Training-main\deployment\model\resources
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+

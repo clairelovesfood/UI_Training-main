@@ -1,0 +1,26 @@
+/**
+    *NOTE*
+    
+    MOBILE FIRST DESIGN. DESIGN FOR MOBILE BEFORE MOVING ON TO WEB.
+    FROM THE SMALLEST SERVICE DESIGN TO THE LARGEST; I.E. MOBILE => MOBILE LANDSCAPE => IPAD => DESKTOP
+
+    FOR NEW COMPONENTS, TAKE THE FOLLOWING STEPS:
+        1. Duplicate __Example_components.scss file
+        2. Rename the File to the respective component names
+        3. import the file below; i.e. @import '__Example_components.scss'
+
+
+    Layout of each SCSS file:
+
+        1. Responsive Portrait Orientation
+        2. Landscape Orientation
+        3. Desktop Web 
+    
+    *END NOTE*
+
+**/
+@import "Snippet_header";
+@import "Snippet_footer";
+@import "Snippet_sidebar";
+@import "Snippet_popup";
+@import "Snippet_rightsidebar";
